@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Dataset store (generated, not source)
+data/records/*
+data/images/*
+!data/records/.gitkeep
+!data/images/.gitkeep
+
+# Editors
+.vscode/
+.idea/
