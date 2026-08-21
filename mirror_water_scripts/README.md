@@ -1,16 +1,5 @@
 # Mirror / Water — Question Generator
 
-This is the code that generates one question type for a visual-reasoning
-question bank: a small figure sits next to a dashed mirror line, and the
-test-taker has to pick which of 4 options correctly shows the figure
-reflected across that line (the "if this were held up to a mirror, or its
-reflection in still water, what would it look like?" puzzle).
-
-This folder is a **trimmed copy** of the real pipeline — only the files
-needed to generate this one question type, nothing else. The working
-project (with the other two question types, tests, and history) is
-unaffected by anything here.
-
 ## 1. What the question looks like
 
 Each question has 5 images and some text:
